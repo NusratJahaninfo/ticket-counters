@@ -1,0 +1,358 @@
+
+    <div class="flex justify-around space-x-10 pt-6 pb-8" id="ticket_selection">
+        <!-- Ticket selection part -->
+        <div class="">
+            <h1 class="font-medium pb-2">Select your seat</h1>
+            <hr />
+            <div class="flex justify-between space-x-96">
+                <!-- Available and Selected seat icons -->
+                <div class="flex">
+                    <img src="images/seat-gray.png" alt="" />
+                    <h1>Available</h1>
+                </div>
+                <div class="flex">
+                    <img src="images/seat-green-filled.png" alt="" />
+                    <h1 class="text-green-500">Selected</h1>
+                </div>
+            </div>
+            <hr>
+            <!-- Seats selection buttons -->
+            <div class="flex items-center pt-4 justify-center gap-7 ">
+                <!-- Example button for Driver -->
+                <div class=" flex gap-4 ml-96">
+                    <button onclick="selectSeat('A4', 'Economy' , 550)" id="A4"
+                        class="pl-4 pr-4 pt-2 pb-2 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        Driver
+                    </button>
+                </div>
+            </div>
+            <!-- A line -->
+            <!-- You can add more lines and buttons for different seat categories -->
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">A</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('A1', 'Economy' , 550)" id="A1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        A1
+                    </button>
+                    <button onclick="selectSeat('A2', 'Economy' , 550)" id="A2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        A2
+                    </button>
+                </div>
+                <div class=" flex gap-4">
+                    <button onclick="selectSeat('A3', 'Economy' , 550)" id="A3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        A3
+                    </button>
+                    <button onclick="selectSeat('A4', 'Economy' , 550)" id="A4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        A4
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- B line -->
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">B</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('B1', 'Economy' , 550)" id="B1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        B1
+                    </button>
+                    <button onclick="selectSeat('B2', 'Economy' , 550)" id="B2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        B2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('B3', 'Economy' , 550)" id="B3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        B3
+                    </button>
+                    <button onclick="selectSeat('B4', 'Economy' , 550)" id="B4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        B4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">c</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('c1', 'Economy' , 550)" id="c1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        c1
+                    </button>
+                    <button onclick="selectSeat('c2', 'Economy' , 550)" id="c2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        c2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('c3', 'Economy' , 550)" id="c3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        c3
+                    </button>
+                    <button onclick="selectSeat('c4', 'Economy' , 550)" id="c4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        c4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">d</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('d1', 'Economy' , 550)" id="d1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        d1
+                    </button>
+                    <button onclick="selectSeat('d2', 'Economy' , 550)" id="d2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        d2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('d3', 'Economy' , 550)" id="d3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        d3
+                    </button>
+                    <button onclick="selectSeat('d4', 'Economy' , 550)" id="d4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        d4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">e</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('e1', 'Economy' , 550)" id="e1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        e1
+                    </button>
+                    <button onclick="selectSeat('e2', 'Economy' , 550)" id="e2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        e2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('e3', 'Economy' , 550)" id="e3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        e3
+                    </button>
+                    <button onclick="selectSeat('e4', 'Economy' , 550)" id="e4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        e4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">f</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('f1', 'Economy' , 550)" id="f1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        f1
+                    </button>
+                    <button onclick="selectSeat('f2', 'Economy' , 550)" id="f2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        f2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('f3', 'Economy' , 550)" id="f3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        f4
+                    </button>
+                    <button onclick="selectSeat('f4', 'Economy' , 550)" id="f4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        f4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">g</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('g1', 'Economy' , 550)" id="g1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        g1
+                    </button>
+                    <button onclick="selectSeat('g2', 'Economy' , 550)" id="g2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        g2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('g3', 'Economy' , 550)" id="g3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        g3
+                    </button>
+                    <button onclick="selectSeat('g4', 'Economy' , 550)" id="g4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        g4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">h</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('h1', 'Economy' , 550)" id="h1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        h1
+                    </button>
+                    <button onclick="selectSeat('h2', 'Economy' , 550)" id="h2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        h2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('h3', 'Economy' , 550)" id="h3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        h3
+                    </button>
+                    <button onclick="selectSeat('h4', 'Economy' , 550)" id="h4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        h4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">i</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('i1', 'Economy' , 550)" id="i1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        i1
+                    </button>
+                    <button onclick="selectSeat('i2', 'Economy' , 550)" id="i2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        i2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('i3', 'Economy' , 550)" id="i3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        i3
+                    </button>
+                    <button onclick="selectSeat('i4', 'Economy' , 550)" id="i4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        i4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+
+            <div class="flex items-center pt-4 justify-center gap-20">
+                <h1 class="pl-2">j</h1>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('j1', 'Economy' , 550)" id="j1"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        j1
+                    </button>
+                    <button onclick="selectSeat('j2', 'Economy' , 550)" id="j2"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        j2
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+                <div class="flex gap-4">
+                    <button onclick="selectSeat('j3', 'Economy' , 550)" id="j3"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        j3
+                    </button>
+                    <button onclick="selectSeat('j4', 'Economy' , 550)" id="j4"
+                        class="w-16 h-10 rounded bg-slate-600 text-white hover:bg-lime-500">
+                        j4
+                    </button>
+                    <!-- Add more buttons for B line if needed -->
+                </div>
+            </div>
+            <!-- Remaining seat lines -->
+        </div>
+        <!-- Cart and Passenger Details Part -->
+        <div class="w-96">
+            <div class="pb-2 font-medium flex justify-between">
+                <h1>Select Your seat</h1>
+                <h1 onclick="clickme()">Remove</h1>
+            </div>
+            <hr>
+            <div class="pb-2">
+                <div class="flex justify-between pb-2">
+                    <h1 class="flex gap-3 mt-2">Seat
+                        <button id="cart_count" class="bg-lime-500 rounded-sm text-black pl-3 pr-3"></button>
+                    </h1>
+                    <h1 class="mt-2">Class</h1>
+                    <h1 class="mt-2">Price</h1>
+                </div>
+                <hr />
+                <div class="flex justify-between pb-2">
+                    <ul id="cart_items"></ul>
+                </div>
+                <hr />
+                <div class="flex justify-between pb-2">
+                    <p>Total price</p>
+                    <p id="cart_price"></p>
+                </div>
+                <p id="discount"></p>
+                <div class="flex justify-around pt-2">
+                    <input class="rounded text-center bg-transparent" id="coupon_input" type="text"
+                        placeholder="Have any coupon?" />
+                    <button class="bg-green-500 text-white pl-4 pr-4 rounded" id="apply_coupon">
+                        Apply
+                    </button>
+                </div>
+                <div class="flex justify-between pt-2">
+                    <p>Grand Total</p>
+                    <p id="grand_total"></p>
+                </div>
+            </div>
+            <!-- Passenger Details -->
+            <div class="w-96 pt-8">
+                <h1 class="pt-4 pb-2 text-lime-500">Passenger Name*</h1>
+                <input class="w-96 h-10 rounded bg-transparent" type="text" placeholder="Enter Your Name" />
+                <h1 class="pt-4 pb-2 text-lime-500">Phone Number*</h1>
+                <input class="w-96 h-10 rounded bg-transparent" type="text" placeholder="Enter Your Phone Number" />
+                <h1 class="pt-4 pb-2 text-lime-500">Email ID</h1>
+                <input class="w-96 h-10 rounded bg-transparent " type="text" placeholder="Enter Your Email ID" />
+            </div>
+            <!-- Next Button -->
+            <div class="flex justify-center pt-6">
+                <button class="bg-green-500 text-white w-96 h-10 rounded-2xl hover:bg-white hover:text-black"
+                    onclick="proceedToNext()" id="next_button">Next</button>
+            </div>
+            <!-- Terms and Conditions -->
+            <div class="flex justify-around pt-4">
+                <h1 class="text-sm hover:text-green-500"><a href="http://">Terms and conditions</a></h1>
+                <h1 class="text-sm hover:text-green-500"><a href="">Cancellation Policy</a></h1>
+            </div>
+        </div>
+    </div>
+    <!-- Success Popup -->
+    <div id="success" style="display: none;">
+        <h1>Success Message</h1>
+        <button id="close">Close</button>
+    </div>
+    

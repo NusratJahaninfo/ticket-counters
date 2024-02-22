@@ -3,21 +3,21 @@ let total_price = 0;
 let t_seat = 40;
 let num = 0;
 
-function realme(name, name2, price) {
+function buscounteer(name, name2, price) {
   add.push({ name, name2, price });
   total_price += price;
 
   reload();
 }
- 
+
 function reload() {
-  const cartelement = document.getElementById("selectItem");
+  const cartelement = document.getElementById("itmes");
   const totalprice = document.getElementById("price");
   totalprice.textContent = total_price;
   cartelement.innerHTML = "";
-  add.forEach((selectItem) => {
+  add.forEach((item) => {
     const li = document.createElement("li");
-    li.textContent = ${item.name}---------------------${item.name2}--------------$${item.price};
+    li.textContent = ${item.name}---------------------${item.name2}--------------${item.price};
     cartelement.appendChild(li);
   });
 
@@ -39,7 +39,7 @@ function reload() {
 
 function pricer() {
   let price1 = total_price;
-  let call = document.getElementById("GT");
+  let call = document.getElementById("Gp");
   call.textContent = "BDT" + price1;
   Cuppon();
 }
